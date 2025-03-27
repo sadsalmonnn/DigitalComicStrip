@@ -40,7 +40,6 @@ nav div p::after {
     background-color: #E5E6E4;
     border-radius: 3px;
     transition: width 0.3s ease-in-out;
-    cursor: alias;
 }
 
 nav div p:hover::after {
