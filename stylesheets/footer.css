@@ -5,7 +5,8 @@
     gap: 100px;
     height: 130px;
     padding-top: 0;
-    padding-bottom: 0;
+
+    background: #f4f4f4;
 }
 
 .container {
@@ -15,6 +16,9 @@
     grid-template-columns: 120px 120px 120px 120px;
     justify-content: center;
     align-items: center;
+    background: #847577;
+    border-radius: 60px;
+    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.3);
 }
 
 .container div {
