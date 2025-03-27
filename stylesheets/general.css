@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header,
+.footer,
+.main {
+    height: 100px;
+    background: #333;
+    color: white;
+    display: flex;
+    padding: 30px;
+}
+
+.main {
+    flex-grow: 1;
+    background: #f4f4f4;
+}
+
+/* .footer {} */
