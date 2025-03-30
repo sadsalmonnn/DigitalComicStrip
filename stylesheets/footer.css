@@ -73,6 +73,8 @@
 
 
 #p5 .container div:nth-child(3) img,
-#p5 .container div:nth-child(4) img {
+#p5 .container div:nth-child(4) img,
+#p6 .container div:nth-child(3) img,
+#p6 .container div:nth-child(4) img {
     opacity: 0.2;
 }
