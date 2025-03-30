@@ -1,0 +1,29 @@
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    flex-direction: column;
+
+}
+
+#home {
+    justify-content: center;
+    align-items: center;
+}
+
+#home #Title {
+    font-size: 200px;
+    margin-bottom: 50px;
+    color: #FBFBF2;
+    z-index: 3;
+}
+
+p:not(.subtitle, .authors) {
+    font-size: 50px;
+    color: #A6A2A2;
+
+    text-align: center;
+}

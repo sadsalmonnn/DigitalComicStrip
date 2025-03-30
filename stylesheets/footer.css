@@ -3,10 +3,11 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
-    height: 130px;
+    height: 150px;
     padding-top: 0;
+    flex-shrink: 0;
 
-    background: #f4f4f4;
+    background: rgba(0, 0, 0, 0.0);
 }
 
 .container {
@@ -58,4 +59,20 @@
 
 #back {
     transform: rotateX(180deg) rotateY(180deg);
+}
+
+#p2 .container div:nth-child(3) img,
+#p2 .container div:nth-child(4) img {
+    opacity: 0.2;
+}
+
+#p1 .container div:nth-child(1) img,
+#p1 .container div:nth-child(2) img {
+    opacity: 0.2;
+}
+
+
+#p5 .container div:nth-child(3) img,
+#p5 .container div:nth-child(4) img {
+    opacity: 0.2;
 }
