@@ -32,22 +32,6 @@ body {
     background-attachment: fixed;
 }
 
-
-/* .layout {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-} */
-
-/* .header, */
-/* .footer {
-    height: 100px;
-    background: #847577;
-    color: #FBFBF2;
-    display: flex;
-    padding: 30px;
-} */
-
 .main {
     color: #FBFBF2;
     display: flex;
@@ -56,8 +40,9 @@ body {
     justify-content: center;
     align-items: center;
 
-
     flex: 1;
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0);
 }
 
 .header {
@@ -69,11 +54,3 @@ body {
     padding: 30px;
     justify-content: space-between;
 }
-
-
-.main {
-    flex-grow: 1;
-    background: rgba(0, 0, 0, 0);
-}
-
-/* .footer {} */

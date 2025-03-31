@@ -36,14 +36,9 @@
     gap: 50px;
 }
 
-
-
 .popupcontainer div:nth-child(3) {
     font-size: 30px;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .popupcontainer img {
